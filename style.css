@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #242323;
+}
+
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tombol-menu img {
+    width: 30px;
+    height: 30px;
+}
+
+.tombol-menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    border: none;
+}
+
+.navbar-kiri {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.tombol-youtube span {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.tombol-youtube {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    border: none;
+    text-decoration: none;
+
+}
+
+.tombol-youtube img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-tengah {
+  display: flex;
+  flex: 1;
+  max-width: 400px;
+  border: none;
+  align-items: center;
+}
+
+
+.navbar-tengah input {
+  width: 100%;
+  height: 30px;
+  border-radius: 20px 0 0 20px;
+  background: transparent;
+  border: 1px solid #2e2e2e;
+  align-items: center;
+}
+
+.navbar-tengah img {
+  display: flex;
+  object-fit: contain;
+}
+
+.tombol-cari {
+  display: flex;
+  cursor: pointer;
+  background-color: #303030;
+  border: none;
+  width: 50px;
+  height: 30px;
+  border-radius: 0 20px 20px 0;
+  align-items: center;
+  jus
+}
+
+.tombol-cari img {
+  width: 30px;
+  height: 18px;
+}
+
+.navbar-kanan {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.tombol-profile {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+}
+
+.tombol-profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.sidebar {
+  position: fixed;
+  top: 50px; 
+  left: 0;
+  width: 75px; 
+  height: calc(100% - 50px);
+  background-color: #000000;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  fit-content: contain;
+}
+
+.beranda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.beranda a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+}
