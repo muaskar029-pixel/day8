@@ -133,18 +133,95 @@ body {
   display: flex;
   flex-direction: column;
   fit-content: contain;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .beranda {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  padding: 5px;
+  height: 50%;
 }
 
 .beranda a {
+  display: flex;
   text-decoration: none;
   color: #ffffff;
   font-size: 12px;
   text-align: center;
+}
+
+.beranda img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.beranda button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.konten {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  align-items: center;
+  margin-left: 75px; 
+  background-color: #181818;
+  min-height: calc(100vh - 50px);
+  box-sizing: border-box;
+}
+
+.video {
+  width: 100%;
+}
+
+.tombol-video {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+
+}
+
+.tombol-video img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.video-info {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.video-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.video-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.video-details {
+  margin-left: 10px;
 }
